@@ -5,5 +5,5 @@ function seekAndDestroy(arr, ...rest) {
   return arr.filter(val => !rest.includes(val));
 }
 
-const z = seekAndDestroy([1, 2, 3, 4, 5, 5, 5, "destroy"], 2, 5);
-console.log(z);
+const x = seekAndDestroy([1, 2, 3, 4, 5, 5, 5, "destroy"], 2, 5);
+console.log(x);
