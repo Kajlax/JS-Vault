@@ -1,7 +1,7 @@
 // EVEN & ODD SUMS
 // Return the sums of even and odd numbers in an array
 
-// evenAndOddSums([10, 25, 33, 50, 60, 60, 45, 71]) == [170, 116]
+// evenAndOddSums([10, 25, 33, 50, 60, 60, 45, 71]) == [180, 174]
 
 function evenAndOddSums(arr) {
   let sumEven = 0;
