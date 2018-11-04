@@ -7,5 +7,5 @@ function longestWord(str) {
   });
   return longest.length;
 }
-const x = longestWord("");
+const x = longestWord("The quick brown fox jumps over the lazy dog");
 console.log(x);
