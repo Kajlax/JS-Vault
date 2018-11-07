@@ -1,6 +1,6 @@
 // SPLIT TEXT INTO SHORT MESSAGES
 // Pass in two arguments. First the string and second the length to divide the text.
-// Text is splitting is done by spaces. Not in the middle of a word.
+// Text splitting is done by spaces. Not in the middle of a word.
 
 function solution(S, K) {
     let splitted = S.split("");
