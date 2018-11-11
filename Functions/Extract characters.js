@@ -1,4 +1,4 @@
-// EXTRACT CHARCTERS
+// EXTRACT CHARACTERS
 // Extract matching characters. Otherwise return no matches.
 
 function extractCharacters(str) {
