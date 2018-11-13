@@ -1,6 +1,6 @@
 // REACH TARGET WITH ADDITION AND MULTIPLICATION
 // Can the argument value passed in be reached only by adding 5 or mulptiplying by 3 repeatedly.
-// Starting from value 1.
+// Starting from value 1. Return the counting formula if true.
 
 function findSolution(target) {
   function find(current, history) {
