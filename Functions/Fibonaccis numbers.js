@@ -1,10 +1,10 @@
 // THE FIBONACCI NUMBERS
 // Pass in an argument how many Fibonacci's numbers should be returned.
 
-function fibonacci(val) {
+function fibonacci(num) {
   let sequence = [1, 2];
 
-  for (let i = 2; i <= val; i++) {
+  for (let i = 2; i <= num; i++) {
     sequence.push((sequence[i] = sequence[i - 1] + sequence[i - 2]));
   }
   sequence.pop();
