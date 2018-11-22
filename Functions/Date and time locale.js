@@ -1,3 +1,5 @@
+// DATE AND TIME LOCALE
+
 function dateAndTime() {
   let today = new Date();
   let day = today.toLocaleDateString("fi-FI", { weekday: "long" });
